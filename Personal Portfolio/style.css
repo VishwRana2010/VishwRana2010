@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,500;1,300;1,400&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+.nav_bar nav li{
+    list-style: none;
+}
+.nav_bar nav a{
+    text-decoration: none;
+    color:#590cff;
+}
+.nav_bar nav a:hover{
+    color:#854dff;
+}
+.nav_bar nav .menu_button button{
+    display: none;
+}
+.nav_bar nav button{
+    padding: 12px 16px;
+    border-radius: 8px;
+    border-color: #590cff;
+    background-color: transparent;
+    color:#590cff;
+    margin-top:30px;
+}
+.nav_bar nav button:hover{
+    background-color: #590cff;
+    color:#fff;
+    animation-name: button-hover;
+    animation-duration: 0.5s;
+}
+@keyframes button-hover{
+    from{
+        background-color: transparent;
+        color:#590cff;
+    }
+    to{
+        background-color: #590cff;
+        color:#fff;
+    }
+}
+.nav_bar nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap:40px;
+    margin-right:40px;
+    margin-top:30px;
+}
+.nav_bar nav #introduction{
+    margin-left:40px;
+}
+.nav_bar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:40px;
+}
+.nav_bar nav .contact-me_button{
+    margin-left:40px;
+}
+.line hr{
+    border: 1.5px solid #0c0040;
+}
+main .image_model img{
+    float:right;
+    margin-right:100px;
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out;
+    opacity: 1;
+    border: 3px solid #0c0040;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+main .title_h1-1 h1{
+    margin-top:60px;
+    margin-left:30px;
+}
+main .title_h2-1 h2{
+    margin-top: 30px;
+    margin-left:30px;
+}
+main .paragraphs_content p{
+    margin-right:350px;
+    margin-top:50px;
+    font-size: 22px;
+    margin-left: 30px;
+}
+main{
+    background-color:#fff;
+    color:#0c0040;
+    margin-left:30px;
+}
+main .social-icons {
+    margin-left:30px;
+    display: flex;
+    gap:40px;
+    margin-top:40px;
+}
+main .github{
+    border: 2px solid #0c0040;
+    padding: 8px;
+    border-radius: 8px;
+}
+main .github i{
+    font-size: 35px;
+}
+main .facebook{
+    border: 2px solid #0c0040;
+    padding: 8px;
+    border-radius: 8px;
+}
+main .facebook i{
+    font-size: 35px;
+}
+main .link-in{
+    border: 2px solid #0c0040;
+    padding: 8px;
+    border-radius: 8px;
+}
+main .link-in i{
+    font-size: 35px;
+}
+main .twitter{
+    border: 2px solid #0c0040;
+    padding: 8px;
+    border-radius: 8px;
+}
+main .twitter i{
+    font-size: 35px;
+}
+main .content{
+    animation: slideInFromLeft 2s ease-in-out;
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+main .social-icons .github:hover{
+    background-color:#0c0040;
+    color:#fff;
+}
+main .social-icons .facebook:hover{
+    background-color:#0c0040;
+    color:#fff;
+}
+main .social-icons .link-in:hover{
+    background-color:#0c0040;
+    color:#fff;
+}
+main .social-icons .twitter:hover{
+    background-color:#0c0040;
+    color:#fff;
+}
+.more-contents .tittle_h1_1-section h1{
+    text-align: center;
+}
+.main_section{
+    background-color: #fff;
+}
+.more-contents{
+    margin-top:100px;
+}
+body{
+    color:#0c0040;
+    background-color: #ffffff;
+}
+section {
+    display: flex;
+    gap:30px;
+}
+  
+.box-1, .box-2 {
+    flex: 1;
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 7px 2px;
+    margin-top: 40px;
+    margin-bottom:90px;
+}
+  
+.title_h1, .tittle-h1_1_section {
+    margin-bottom: 10px;
+}
+  
+.content-p, .content_p_section {
+    line-height: 1.5;
+}
+.box-1 {
+    background-color: #d0b7ff;
+    margin-left: 20px;
+}
+.box-2{
+    background-color:#feffbb;
+    margin-right: 20px;
+}
+.projects .title{
+    text-align: center;
+}
+.line hr{
+    border:2px solid #0c0040;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+.rent_car .image img{
+    border: 2px solid #0c0040;
+    border-radius:5px;
+    margin-left:50px;
+}
+.rent_car{
+    display: flex;
+}
+.rent_car .contents_rent_car p{
+    color:#0c0040;
+    font-size: 22px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.rent_car .contents_rent_car a{
+    color:#000;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
